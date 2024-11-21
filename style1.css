@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("hell.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.container h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.container h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.container .button {
+  padding: 1rem 2rem;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.8s ease-in;
+  box-shadow: 2px 2px 20px white;
+  filter: drop-shadow(2px 2px 20px black);
+  border-radius: 12px;
+  letter-spacing: 1px;
+}
+.container .button:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: black;
+  box-shadow: 2px 2px 20px black;
+  filter: drop-shadow(2px 2px 20px white);
+}
+h1,
+h2,
+.button {
+  animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.shope-section {
+  display: grid;
+  background-image: url("hell.png");
+  background-size: cover;
+  grid-template-columns: 23% 23% 23%;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+  height: 100vh;
+}
+.box {
+  height: 320px;
+  width: 100%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  /* border: 2px solid black; */
+  border-radius: 12px;
+  margin-top: 15px;
+  box-shadow: 2px 2px 20px white;
+  filter: drop-shadow(2px 2px 20px black);
+}
+.box-image {
+  height: 180px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+}
+.box-content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.box-content p {
+  color: #007185;
+}
+.shope-section a {
+  background-color: #3498db;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  display: inline-block;
+  padding: 10px 20px;
+}
