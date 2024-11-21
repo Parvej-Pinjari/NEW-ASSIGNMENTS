@@ -111,21 +111,5 @@ h2,
   display: inline-block;
   padding: 10px 20px;
 }
-@media (max-width: 1000px) {
-  .shope-section {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-  }
-}
-@media (max-width: 500px) {
-  .shope-section {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-   
-  }
-}
+
 
