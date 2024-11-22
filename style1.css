@@ -71,6 +71,7 @@ h2,
   display: grid;
   background-image: url("hell.png");
   background-size: cover;
+  background-attechment: fixed;
   grid-template-columns: 23% 23% 23%;
   justify-content: space-evenly;
   margin-bottom: 10px;
