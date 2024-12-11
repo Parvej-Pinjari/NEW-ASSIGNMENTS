@@ -69,7 +69,7 @@ h2,
   padding: 0;
   box-sizing: border-box;
 }
-.shope-section {
+.download-section {
   display: grid;
   background-image: url("hell.png");
   background-size: cover;
@@ -107,7 +107,7 @@ h2,
 .box-content p {
   color: #007185;
 }
-.shope-section a {
+.download-section a {
   background-color: #3498db;
   padding: 20px;
   color: white;
@@ -117,7 +117,7 @@ h2,
   padding: 10px 20px;
 }
 @media (max-width: 1000px) {
-  .shope-section {
+  .download-section {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     align-items: center;
@@ -127,7 +127,7 @@ h2,
   }
 }
 @media (max-width: 500px) {
-  .shope-section {
+  .download-section {
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
     align-items: center;
@@ -136,3 +136,4 @@ h2,
     margin-right: 20px;
   }
 }
+
